@@ -1,0 +1,12 @@
+name: Published
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  test:
+    runs-on: [macos-latest]
+	steps:
+	  - name: ls
+	    run: ls
