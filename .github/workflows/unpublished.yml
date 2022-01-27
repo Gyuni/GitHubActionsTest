@@ -1,8 +1,8 @@
-name: Published
+name: Unpublished
 
 on:
   release:
-    types: [published]
+    types: [unpublished]
 
 jobs:
   test:

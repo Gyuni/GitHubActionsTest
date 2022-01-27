@@ -1,8 +1,8 @@
-name: Published
+name: Prereleased
 
 on:
   release:
-    types: [published]
+    types: [prereleased]
 
 jobs:
   test:
